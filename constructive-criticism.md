@@ -6,24 +6,18 @@ funding mechanism, and of the technology tree idea itself.
 
 ## Funding Mechanism
 
-I have at this point participated in countless hackathons. The most
-memorable was spent sleeping with the dinosaurs at the American Museum
-of Natural History! I've recently won some bounties:
-
-- https://blueskyweb.org/blog/satellite (winner with Devigny, a zero
-  knowledge identity linking scheme)
-
-- https://medium.com/@wesc/status-capture-and-institutional-design-e854492152ae
-  (runner up to a Balaji 1729 essay competition)
-
-and I have an upcoming grant for working on decentralized tech:
-
-- https://github.com/filecoin-project/devgrants/issues/400
-  (Interplanetary File Catalog)
-
-Also, a hackathon project of mine from over 10 years ago received seed
-funding to continue development. Point is, I'm no stranger to how
-these things work.
+I have at this point participated in countless hackathons. I've [slept
+under the dinosaurs](https://www.youtube.com/watch?v=tTcNFa78d5w) at
+the American Museum of Natural History, won some bounties ([Bluesky
+Satellite](https://blueskyweb.org/blog/satellite), [runner up rebuttal
+to a Balaji 1729
+essay](https://medium.com/@wesc/status-capture-and-institutional-design-e854492152ae)),
+have a pending grant on improving IPFS use ([Interplanetary Library
+Catalog](https://github.com/filecoin-project/devgrants/issues/400)),
+and even [received seed
+funding](https://www.brownstoner.com/queens/long-island-city/tech-startup-storybox-makes-its-home-in-lic/)
+from a hackathon idea. Point is, I'm no stranger to how these things
+work.
 
 As someone who has been very interested in retroactive public goods
 funding, open source funding, and prize mechanisms, I thought it would
@@ -49,22 +43,25 @@ have sunk in 100 hours, net out zero. What's more, the likelihood a
 single developer wins is low, especially one who is employed full time
 and has family obligations (NB: that's me!).
 
-If there are ten serious entries and you need at least 100 hours of
+If there are ten competitive entries (Devpost has over 300 registered
+participants as of this writing) and you need at least 100 hours of
 work, then that works out to an expected value of $60 / hour, and an
-upper end of perhaps $600 / hour. As a professional developer who
-happens to have the time to pursue such a thing, that dollar rate
-doesn't seem better than doing a guaranteed $200 / hr gig.
+upper end of $600 / hour. A professional developer may instead prefer
+to _guarantee_ a dollar rate of $200.
 
 A $60k prize also signals that participants should consider
-reorganizing their life.
+reorganizing their life. When the deadline was extended by two weeks,
+I was on the fence. I welcomed the extra time, but I had also already
+pushed myself for a March 1st deadline. A few participants angrily
+posted in Discord.
 
-The vast majority of the total hours going into the competition is
-either developing overlapping ideas, or will eventually be thrown
-away.
+The vast majority of the hours across all submissions going into the
+competition is either developing overlapping ideas, or will eventually
+be thrown away.
 
 In short, this competition structure is optimizing for ad hoc teams
 and produces a large amount of wasted effort, especially if there's
-little variance on the desired result: to have a system that edits a
+little variation on the desired result: to have a system that edits a
 knowledge graph.
 
 If the point in the MapsMap Hackathon is to encourage creativity,
@@ -79,7 +76,9 @@ development team with the $60k.
 Furthermore, it's generally the case that Hackathons are a "young
 person's game." If the MapsMap team wants experienced participants,
 providing a reasonable space with respect to time commitments is
-essential.
+essential. An intellectually diverse crowd tends to generate better
+ideas. Instead, the structure of MapsMap encourages competition, not
+cooperation.
 
 
 ## Technology Trees
@@ -87,42 +86,44 @@ essential.
 It's a neat idea. I absolutely love it. However, the major problem is
 that the inspiration comes from Civ, a game that has the benefit of
 historical 20-20. As Kierkegaard says, life can only be understood
-looking backwards, but it must (unfortunately) be lived forwards. I
-suspect that we can not come up with forward looking maps with a good
-degree of accuracy and specificity.
+looking backwards, but it must be lived forwards. I suspect that we
+can not come up with forward looking maps with a good degree of
+accuracy and specificity.
 
 I think the best pro-MapsMap argument is the DARPA funding system,
 which relies on program managers with deep knowledge of academia and
 industry who can fund technological progress bigger than any
 particular research group or company. These plans, though, are
-unlikely nodes and edges. Rather, they're broad speculative roadmaps,
-perhaps reasoning from first principles.
+unlikely nodes and edges. Rather, they're imaginative bluesky roadmaps
+tethered to existing capabilities and reasoning from first principles.
 
 A popular example within the Foresight community might be Feynman's
 _Plenty of Room at the Bottom_, where he reasons his way to
-nanotechnology and presents some potentially breakthrough
-challenges. There is a kind of map here, but it's a very sparsely
-populated one. It is not detailed, and in fact it's communicated
-clearly via the original speech he gave. Where are the nodes and
-edges? Rather, _Plenty of Room_ is more like pointing to the moon and
+nanotechnology and presents blocking breakthrough challenges. There is
+a kind of map here, but it's a very sparsely populated. In fact,
+despite it's ambiguity, Feynman's argument is communicated quite
+clearly _in a linearly spoken speech_. Where are the nodes and edges?
+Rather, _Plenty of Room_ is more like JFK pointing to the moon and
 saying "in principle we should be able to get there."
 
-A major benefit to a map is legibility. There is no compendium of
-DARPA roadmaps. There should be! The ability to open up a page and
-point to a roadmap enables funders and pioneers to be convinced that a
-thing might be possible.
+A major -- perhaps _the_ major benefit to having a map is
+legibility. There is no compendium of DARPA roadmaps. There should be!
+The ability to open up a page and point to a roadmap enables funders
+and pioneers to be convinced that a thing might be possible.
 
 Along with legibility also comes a Schelling point that pioneers can
-focus on, like dogs to fire hydrants. Those that go along with the
-focal points are more likely to cooperate and survive. But I need to
-ask -- does this necessarily mean these maps are describing the best
-solutions we have? Is it the case that the road to a deep solution can
-necessarily be written down, or do we risk derailing progress with
-overconfident maps?
+focus towards, like dogs to fire hydrants. Those that embrace focal
+points, like animals in nature, are more likely to cooperate and
+survive. But I need to ask -- does this necessarily mean these maps
+are describing the best solutions we have? Is it the case that the
+road to a deep solution can necessarily be written down, or do we risk
+derailing progress with overconfident maps?
 
-A good maps system, then, needs to strike a balance by providing
-enough specificity that a thing might be possible, but also not narrow
-pioneers' focus so much as to miss real solutions. It's unclear to me
-if there's a piece of software than can achieve this, or if this
-ultimately comes down to the design and culture of a larger complex
-social system. I suspect the latter.
+More often than not, scientific breakthroughs arrive from
+unpredictable angles. mRNA vaccines were not on a well accepted map
+towards pandemic preparedness. The economic and theoretical
+underpinnings of cryptocurrency are decades old, but were not a part
+of the web's roadmap until recently (and some argue are still not on
+the map). The precision of a good mapping tool needs to be balanced by
+epistemic humility, and a structure that accepts exploration of
+unseeable territory.
