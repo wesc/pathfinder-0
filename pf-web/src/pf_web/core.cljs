@@ -1,0 +1,26 @@
+(ns pf-web.core
+  (:require
+   [reagent.dom :as rdom]
+   [re-frame.core :as re-frame]
+   [day8.re-frame.http-fx]
+   [pf-web.events :as events]
+   [pf-web.routes :as routes]
+   [pf-web.views :as views]
+   [pf-web.config :as config]))
+
+
+(defn dev-setup []
+  (when config/debug?
+    (println "dev mode")))
+
+(defn ^:dev/after-load mount-root []
+  (re-frame/clear-subscription-cache!)
+  (let [root-el (.getElementById js/document "app")]
+    (rdom/unmount-component-at-node root-el)
+    (rdom/render [views/main-panel] root-el)))
+
+(defn init []
+  (routes/start!)
+  (re-frame/dispatch-sync [::events/initialize-db])
+  (dev-setup)
+  (mount-root))
