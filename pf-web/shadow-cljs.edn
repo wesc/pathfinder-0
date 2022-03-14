@@ -28,7 +28,9 @@
    :modules
    {:app {:init-fn pf-web.core/init}}
    :devtools
-   {:preloads [day8.re-frame-10x.preload]}
+   {
+    ;;:preloads [day8.re-frame-10x.preload]
+    }
    :dev
    {:compiler-options
     {:closure-defines
